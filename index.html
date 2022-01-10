@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Date picker</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<form>
+  <h1>Date picker</h1>
+  <p>Click on the birth date field to see the toggle and datepicker.</p>
+  <div class='fields'>
+    <i class='fa fa-user'></i>
+    <input type='text' name='name' placeholder='Name' />
+  </div>
+  <div class='fields'>
+    <i class='fa fa-envelope-o'></i>
+    <input type='text' name='email' placeholder='Email ID' />
+  </div>
+  <div class='fields dateSelector'>
+    <i class='fa fa-calendar-o'></i>
+    <input type='text' name='birthday' id='DOB' placeholder='Birth date' />
+  </div>
+  <input type="submit" class='button' value='Submit'>
+</form>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script  src="function.js"></script>
+
+</body>
+</html>
